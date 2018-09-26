@@ -16,5 +16,6 @@ describe('normalizePort(val)', function () {
     var normalizedPort = normalizePort(port)
 
     expect(normalizedPort).to.be.a('number')
+    
   })
 })
