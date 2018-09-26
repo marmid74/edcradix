@@ -5,7 +5,7 @@ const promclient = require('prom-client');
 const collectDefaultMetrics = promclient.collectDefaultMetrics;
 
 var app = express();
-//small numbeer 5 change to test radix build...........
+//small numbeer 6 change to test radix build...........
 //Getting api from env variable
 var apiKey = process.env.QUOTEKEY;
 
